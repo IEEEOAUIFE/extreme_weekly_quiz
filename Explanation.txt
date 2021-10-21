@@ -1,0 +1,13 @@
+How the funtion works.
+
+array_max is the highest value in the array
+array_min is the lowest value in the array
+I used sorted() so as not to tamper with order of the original list
+
+The for loops(doing the sub-setting);
+for every index postion, i'm taking all possible slicing from index 0 up to that index
+The sub_lists variable holds all the possible slicing/subset from above
+
+The return statement;
+I'm checking my sub_lists for every list that contains the max and miniumum values of the array
+Then i'm returning the one with the minimum length(the smallest list that contains the max and min)
